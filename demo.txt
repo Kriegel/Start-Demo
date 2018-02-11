@@ -1,0 +1,12 @@
+# Demofile for the famous Start-Demo command from Jeffrey Snover
+# use it with the Start-Demo command!
+# The Next Line is a PowerShell command which executes in real inside the Demo
+# getting all Processe which starts wich the char P
+Get-Process -Name P*
+# Next command will fetch all services running started on thich machine
+Get-Service | Where-Object { $_.Status -eq 'Running'}
+# Next Command will schow you the Members and the Type of an .NET PowerShell String
+"Hello" | Get-Member
+# Next command will fetch a only 1 file and shows ALL Properties with Select-Object
+Get-ChildItem | Select-Object -First 1 | Select-Object *
+# Demo of PowerShell Commands ends here!
