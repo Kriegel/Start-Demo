@@ -5,7 +5,7 @@ It completely transforms the experience of giving a PowerShell demo in the conso
 <pre>
 .SYNTAX
 
-Start-Demo.ps1 [[-file] <Object>] [[-command] <int>] [[-promptColor] <ConsoleColor>] [[-commandColor] <ConsoleColor>] [[-commentColor] <ConsoleColor>] [[-AutoSpeed] <int>] [-FullAuto] [-NoPauseAfterExecute]
+Start-Demo.ps1 [[-file] &lt;Object&gt;] [[-command] &lt;int&gt;] [[-promptColor] &lt;ConsoleColor&gt;] [[-commandColor] &lt;ConsoleColor&gt;] [[-commentColor] &lt;ConsoleColor&gt;] [[-AutoSpeed] &lt;int&gt;] [-FullAuto] [-NoPauseAfterExecute]
 
 .DESCRIPTION
 
@@ -18,7 +18,7 @@ Start-Demo.ps1 [[-file] <Object>] [[-command] <int>] [[-promptColor] <ConsoleCol
 • You can skip the pause after the execute of a command by using the Switch:
     -NoPauseAfterExecute
 • It shows you the command (both at the prompt and in the Window Title [for the folks at the back of the room) and waits for input.
- • If your input is <CR> (the "Enter" key), it runs the command else you can provide other input and it will do other actions.
+ • If your input is &lt;CR&gt; (the "Enter" key), it runs the command else you can provide other input and it will do other actions.
    By input of a char ou can:
         (?) Show the help
         (n) Goto Next command
@@ -76,7 +76,7 @@ overhaul of Jeffrey Snover's original Start-Demo script by Joel "Jaykul" Bennett
 • V.1.1.0 to 2.9.9.
 <pre>
 Lost in space ....
-<pre>
+</pre>
 
 • V.1.1.0
 <pre>
