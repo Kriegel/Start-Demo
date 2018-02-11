@@ -1,5 +1,7 @@
 # Start-Demo
 The famous Start-Demo script from Jeffrey Snover ; improved ; to present canned Demos of PowerShell Scripts
+
+It completely transforms the experience of giving a PowerShell demo in the console, allowing you to focus on your messages instead of typing. It is REAL in the sense that the commands REALLY run, the script just eliminates your typing.
 <pre>
 • You can specify which file you want to demo (it defaults to “.\demo.txt”)
 • You can specify which command to start with (it defaults to 0)
@@ -18,7 +20,7 @@ The famous Start-Demo script from Jeffrey Snover ; improved ; to present canned 
 • emulates TYPING by introducing a random pause between key output
    You can control the pause interval
    Entering a key during the command typing will cause it to cancel the pauses
-   The command to be entered is displayed on the window title before the typing starts so you can see what is coming.\
+   The command to be entered is displayed on the window title before the typing starts so you can see what is coming.
  • Colors are control via variables (so you can easily change them for your environment)
  • Timecheck now tells you where you are in the demo: You are at line 10 of 29
 </pre>
@@ -26,7 +28,7 @@ The famous Start-Demo script from Jeffrey Snover ; improved ; to present canned 
 
 • V.1.1.0
 <pre>
-    Published by Jeffrey Snover at\
+    Published by Jeffrey Snover at
     https://blogs.msdn.microsoft.com/powershell/2007/06/03/new-and-improved-start-demo/
 
 • Fix bug for demo files that have a single line
@@ -47,7 +49,7 @@ https://www.powershellgallery.com/packages/Start-Demo/1.0.1/DisplayScript
 </pre>
 • V1.0.0
 <pre>
-    Inintial release 03.March.2007 V.1.0.0\
+    Inintial release 03.March.2007 V.1.0.0
     This script was originally published by Jeffrey Snover at
     https://blogs.msdn.microsoft.com/powershell/2007/03/03/start-demo-help-doing-demos-using-powershell/
 </pre>
